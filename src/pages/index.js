@@ -1,3 +1,9 @@
 import React from "react"
+import Sphere from "../components/sphere"
+import "../styles/styles.css"
 
-export default () => <div>Hello world!</div>
+const App = () => {
+  return <Sphere />
+}
+
+export default App
